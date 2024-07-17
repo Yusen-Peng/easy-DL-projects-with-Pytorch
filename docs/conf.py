@@ -1,6 +1,4 @@
-import sys
-sys.path.insert(0, 'C:/Users/David/OneDrive/Desktop/easy DL projects with pytorch')
-import digitrecognition
+
 
 # Configuration file for the Sphinx documentation builder.
 #
