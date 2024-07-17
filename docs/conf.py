@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, 'C:/Users/David/OneDrive/Desktop/easy DL projects with pytorch')
+import digitrecognition
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -14,7 +18,16 @@ release = '1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+# Add any Sphinx extension module names here, as strings.
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx_autodoc_typehints',
+]
+
+# Napoleon settings
+napoleon_google_docstring = False
+napoleon_numpy_docstring = True
 
 templates_path = ['_templates']
 exclude_patterns = []

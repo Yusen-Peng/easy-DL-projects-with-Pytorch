@@ -16,9 +16,5 @@ Let's do some documentation now!
    :maxdepth: 2
    :caption: Contents:
 
-
-   introduction
-   installation
-   usage
-   api
+   api/digitrecognition
 
