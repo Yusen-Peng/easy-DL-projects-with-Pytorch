@@ -55,6 +55,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
+"""
+  CNN class.
+
+"""
 class ConNet(nn.Module):
   def __init__(self):
     super(ConNet, self).__init__()
